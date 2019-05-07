@@ -1,0 +1,15 @@
+<nav class="nav navbar-nav navbar-right">
+  <ul>
+    <%= link_to "Store Home", store_path %>
+    <% if current_user %>
+        <%= link_to 'Sign out', destroy_user_session_path, method: 'delete' %>
+        <% if current_user.current_cart %>
+          <%= link_to "Cart", cart_path(current_user.current_cart) %>
+        <% end %>
+      <h3><%= "Signed in as #{current_user.email}" %></h3>
+    <% else %>
+        <%= link_to 'Sign in', new_user_session_path %>
+        <%=  link_to 'Sign up', new_user_registration_path %>
+    <% end %>
+  </ul>
+</nav>
