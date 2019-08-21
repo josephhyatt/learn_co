@@ -1,6 +1,6 @@
 ![alt text](https://marcuscript.files.wordpress.com/2017/05/flatironschool.png?w=762&h=384&crop=1)
 
-# My Complete Flatiron Assignments
+# My Completed Flatiron Assignments
 
 When going through the Flatiron curriculum you will learn there are A LOT of assignments. The one issue I had with Flatiron is instead of creating a folder and adding those assignments to that folder, they have you upload each assignment to your GitHub which soon will lead your GitHub to become overwhelmed with rudimentary examples to show future employers and tends to make it seem as if you just upload everything and anything. I noticed this right away and made it so that assignments are directed to this directory. 
 
